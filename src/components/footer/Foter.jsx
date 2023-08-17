@@ -4,10 +4,10 @@ import {BsFacebook, BsInstagram, BsTwitter} from'react-icons/bs'
 const Foter = () => {
   return (
     <footer className='footer'>
-        <a href="#" className='footer__logo'>GREGORIO CARDONA</a>
-        
+        <a href="/" className='footer__logo'>GREGORIO CARDONA</a>
+        {/* viernes 9:30 alvaro de la santisima trinida servicio familia dispensario medico guasimales */}
         <ul className='permaLinks'>
-          <li> <a href='#'>Home</a></li>
+          <li> <a href='#/'>Home</a></li>
           <li> <a href='#about'>About</a></li>
           <li><a href='#experience'>Experience</a></li>
           <li><a href='#services'>Services</a></li>

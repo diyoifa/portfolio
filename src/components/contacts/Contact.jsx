@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {ImWhatsapp} from 'react-icons/im'
-import {FaFacebookMessenger} from 'react-icons/fa'
+import {FaLinkedin} from 'react-icons/fa'
 import swal from 'sweetalert'
 import emailjs from 'emailjs-com';
 
@@ -10,17 +10,17 @@ const Contact = () => {
   const data = [
     {
       id:1,
-      name: "Email",
-      url: "mailto:jose.cardona@unipamplona.edu.co",
+      name: "dani12ca12@gmail.com",
+      url: "mailto:dani12ca12@gmail.com",
       info:"🚀Gregorio Cardona",
       icon: <AiOutlineMail/>
     },
     {
       id:2,
-      name: "Messenger",
-      url: "https://www.facebook.com/leticia.guarin.73",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/jose-gregorio-cardona-guarin-95306a19a/",
       info: "🚀Gregorio Cardona",
-      icon: <FaFacebookMessenger/>
+      icon: <FaLinkedin/>
     },
     {
       id:3,

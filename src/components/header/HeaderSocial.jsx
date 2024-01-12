@@ -3,7 +3,7 @@ import {BsLinkedin,BsGithub,BsDribbble} from 'react-icons/bs'
 const HeaderSocial = () => {
   return (
     <div className='header__socials'>
-      <a href='https://www.linkedin.com/' target="_blank" rel="noreferrer" ><BsLinkedin/></a>
+      <a href='https://www.linkedin.com/in/jose-gregorio-cardona-guarin-95306a19a' target="_blank" rel="noreferrer" ><BsLinkedin/></a>
       <a href='https://github.com/diyoifa' target="_blank" rel="noreferrer"><BsGithub/></a>
       <a href='https://dribbble.com/diyoifa' target="_blank" rel="noreferrer"><BsDribbble/></a>
     </div>

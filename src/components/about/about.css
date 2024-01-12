@@ -76,6 +76,10 @@
     color: var(--color-ligth);
 }
 
+.about__span {
+    color: var(--color-primary);
+}
+
 /*====MEDIA QUERIE(MEDIUM DEVICES)====*/
 @media screen and (max-width:1024px){
     .about__container{

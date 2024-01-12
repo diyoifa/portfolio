@@ -26,14 +26,41 @@
     color: var(--color-primary);
 }
 
+/* .experience__fronted .experience__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 2rem;
+} */
+
+.experience__backend .experience__content, .experience__devops .experience__content, .experience__fronted .experience__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 2rem;
+}
+
+/* .experience__devops .experience__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 2rem;
+} */
+
 .experience__content{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
+   justify-items: center;
+   align-items: center;
    grid-gap: 2rem;
 }
 
 .experience__details{
     display: flex;
+    justify-content: center;
     gap: 1rem;
 }
 

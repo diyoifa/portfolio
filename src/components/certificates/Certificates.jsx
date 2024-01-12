@@ -8,6 +8,7 @@ import AVTR5 from '../../assets/c5.jpg'
 import AVTR6 from '../../assets/c6.jpg'
 import AVTR7 from '../../assets/c7.jpg'
 import AVTR8 from '../../assets/c8.jpg'
+import AVTR9 from '../../assets/c9.jpg'
 import {  Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -15,9 +16,15 @@ import 'swiper/css/pagination';
 
 
 
-const Testimonials = () => {
+const Certificates = () => {
   const data =[
-    
+    {
+      id:1,
+      avatar: AVTR9,
+      name: "META",
+      testimonial: 'Meta Front-End Developer',
+      url:"https://coursera.org/share/6e0350f329a5603a96d1c83e294c99a2"
+    },
     {
       id:2,
       avatar: AVTR2,
@@ -68,7 +75,7 @@ const Testimonials = () => {
       url: 'https://coursera.org/share/d7b1009ecdb3db7421f52ad7b197af74',
     },
     {
-      id:1,
+      id:9,
       avatar: AVTR,
       name: "Macquarie University, Sydney Australia",
       testimonial: 'Excel Skills for Business',
@@ -107,4 +114,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default Certificates
